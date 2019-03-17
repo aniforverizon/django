@@ -1,0 +1,7 @@
+{%extends 'testapp/base.html'%}
+    {%block content%}
+        <h1>Your Shopping Cart Items are ...</h1><hr>
+        {%for key,value in request.session.items %}
+           <h2>{{key|upper}} : {{value}}</h2>
+        {%endfor%}
+    {%endblock %}

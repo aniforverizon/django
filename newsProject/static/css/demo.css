@@ -1,0 +1,17 @@
+h1{
+  color:red;
+  text-align: center;
+}
+ul{
+  color:blue;
+}
+img{
+  height: 100px;
+  width:100px;
+  border:10px red solid;
+}
+body{
+  background: url("https://images.unsplash.com/photo-1531845116688-48819b3b68d9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c83ac2eafd5fb429c3a1681ae507e57c&auto=format&fit=crop&w=751&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

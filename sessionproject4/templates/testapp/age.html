@@ -1,0 +1,9 @@
+{%extends 'testapp/base.html'%}
+    {%block content%}
+    <h1>Age Registration Form</h1><hr>
+    <form action='/age'>
+      {{form.as_p}}
+      {%csrf_token%}
+      <input type="submit" class='btn btn-primary btn-lg' value="Submit Age">
+    </form>
+    {%endblock %}
